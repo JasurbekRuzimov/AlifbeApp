@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="primary">#112D4E</color>
+    <color name="gray">#DBE2EF</color>
+    <color name="purple">#FF3700B3</color>
+    <color name="teal">#3C90F6</color>
+    <color name="blue">#2196F3</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="green">#02E20B</color>
+    <color name="green1">#029907</color>
+    <color name="red">#F80202</color>
+    <color name="yellow">#FFA000</color>
+
+    <color name="backg">#6a5be2</color>
+    <color name="category">#e8e4fa</color>
+    <color name="click">#ff8fa3</color>
 </resources>
