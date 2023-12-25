@@ -1,18 +1,21 @@
 package uz.jasurbekruzimov.alifbeapp
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import android.annotation.SuppressLint
 import android.media.MediaPlayer
+import android.os.Bundle
 import android.view.View
-import android.widget.ImageView
+import androidx.appcompat.app.AppCompatActivity
+
 @SuppressLint("StaticFieldLeak")
 
-class MainActivity : AppCompatActivity() {
+class HarfActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_harf)
+
     }
+
 
     fun CallA(view: View) {
         val mp = MediaPlayer.create(this, R.raw.a)
@@ -172,11 +175,15 @@ class MainActivity : AppCompatActivity() {
 
     // CallYO
 
-//    fun CallYO(view: View) {
+    //    fun CallYO(view: View) {
 //        val mp = MediaPlayer.create(this, R.raw.yo)
 //        mp.start()
 //    }
     fun CallTutuqBelgi(view: View) {
 
+    }
+
+    fun backHome(view: View) {
+        finish()
     }
 }
