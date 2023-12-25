@@ -14,12 +14,27 @@
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Game.Oyinlar_Activity"
+            android:exported="false" />
+       <activity
+            android:name=".Game.GameOver"
+            android:exported="false" />
+        <activity
+            android:name=".Game.StartGame_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".HarfActivity"
+            android:exported="true">
         </activity>
     </application>
 
