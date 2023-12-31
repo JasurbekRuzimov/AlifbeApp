@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wooden_background_button"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="Puzzle.ResultActivity">
+
+    <ImageView
+        android:id="@+id/result_background"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/result_background" />
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="#F19C1F"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_button_style"
+        android:drawableStart="@drawable/home_icon"
+        android:onClick="home"
+        android:padding="6dp"
+        android:text="@string/home"
+        android:textColor="#873509"
+        android:textStyle="bold"
+        tools:ignore="UsingOnClickInXml" />
+
+</LinearLayout>

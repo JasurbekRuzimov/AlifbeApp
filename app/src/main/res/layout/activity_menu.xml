@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wooden_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="Puzzle.MenuActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="15 Puzzle"
+        android:textColor="@color/white"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/player_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="80dp"
+        android:autofillHints=""
+        android:background="@drawable/play_button_style"
+        android:gravity="center"
+        android:hint="@string/player_name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/settings_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/play_button_style"
+        android:drawableStart="@drawable/play_icon"
+        android:onClick="playGame"
+        android:paddingHorizontal="16dp"
+        android:text="@string/play"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/rating_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/play_button_style"
+        android:drawableStart="@drawable/rating_icon"
+        android:onClick="ratings"
+        android:paddingHorizontal="16dp"
+        android:text="@string/ratings"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/info_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/play_button_style"
+        android:drawableStart="@drawable/settings_icon"
+        android:onClick="settings"
+        android:paddingHorizontal="16dp"
+        android:text="@string/settings"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/play_button_style"
+        android:drawableStart="@drawable/instruction_icon"
+        android:onClick="instruction"
+        android:paddingHorizontal="16dp"
+        android:text="@string/instruction"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:ignore="UsingOnClickInXml" />
+
+
+</LinearLayout>

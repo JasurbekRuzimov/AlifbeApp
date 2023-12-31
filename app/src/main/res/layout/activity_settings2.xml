@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D0D1CF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="36dp"
+    tools:context="Puzzle.SettingsActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="32dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/settings"
+                android:textColor="@color/black"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/duration_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/duration"
+                    android:layout_alignBottom="@id/duration"
+                    android:gravity="center"
+                    android:text="@string/time"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="italic|bold" />
+
+                <com.google.android.material.slider.Slider
+                    android:id="@+id/duration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_toEndOf="@id/duration_text"
+                    android:backgroundTint="@color/black"
+                    android:stepSize="5"
+                    android:valueFrom="5"
+                    android:valueTo="25" />
+            </RelativeLayout>
+
+            <Switch
+                android:id="@+id/sound_switch"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/sound"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                app:thumbTint="@drawable/switch_thumb_selectr"
+                app:trackTint="@drawable/switch_track_selectr"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
