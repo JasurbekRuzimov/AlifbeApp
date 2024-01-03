@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/user"
+        android:title="Profil"
+        tools:ignore="HardcodedText,MissingPrefix" />
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/setting"
+        android:title="Sozlamalar"
+        tools:ignore="HardcodedText,MissingPrefix" />
+    <item
+        android:id="@+id/nav_tools"
+        android:title="Qo'shimcha"
+        tools:ignore="HardcodedText,MissingPrefix" >
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_share1"
+                android:icon="@drawable/send_message"
+                android:title="Do'stlarga ulashish"
+                tools:ignore="HardcodedText" />
+            <item
+                android:id="@+id/nav_support"
+                android:icon="@drawable/support"
+                android:title="Qo'llab quvvatlash markazi"
+                tools:ignore="HardcodedText,MissingPrefix" />
+
+            <item
+                android:id="@+id/nav_FAQ"
+                android:icon="@drawable/faq"
+                android:title="F.A.Q"
+                tools:ignore="HardcodedText" />
+
+            <item
+                android:id="@+id/nav_AboutUs"
+                android:icon="@drawable/about_us"
+                android:title="Biz haqimizda"
+                tools:ignore="HardcodedText" />
+
+        </menu>
+    </item>
+</menu>
