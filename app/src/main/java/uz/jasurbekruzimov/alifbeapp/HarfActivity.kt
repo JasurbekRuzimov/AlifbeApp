@@ -16,7 +16,6 @@ class HarfActivity : AppCompatActivity() {
 
     }
 
-
     fun CallA(view: View) {
         val mp = MediaPlayer.create(this, R.raw.a)
         mp.start()
