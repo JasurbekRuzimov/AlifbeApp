@@ -1,10 +1,13 @@
-package uz.jasurbekruzimov.alifbeapp;
+package uz.jasurbekruzimov.alifbeapp.Splash;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import uz.jasurbekruzimov.alifbeapp.Dashboard.MainActivity;
+import uz.jasurbekruzimov.alifbeapp.R;
 
 public class Splash extends AppCompatActivity {
 
