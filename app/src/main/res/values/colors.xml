@@ -15,4 +15,16 @@
     <color name="backg">#6a5be2</color>
     <color name="category">#e8e4fa</color>
     <color name="click">#ff8fa3</color>
+    <color name="CheckTrue">#048004</color>
+    <color name="CheckWrong">#8B8A89</color>
+
+    <color name="primary2">#78c2ad</color>
+    <color name="secondary">#f3969a</color>
+    <color name="success">#56cc9d</color>
+    <color name="info">#6cc3d5</color>
+    <color name="warning">#ffce67</color>
+    <color name="danger">#ff7851</color>
+    <color name="light">#f8f9fa</color>
+    <color name="dark">#343a40</color>
+
 </resources>
