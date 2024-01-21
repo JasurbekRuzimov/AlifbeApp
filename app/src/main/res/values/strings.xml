@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">Genius Child</string>
+    <string name="instruction_title">What is the Puzzle 15?</string>
+    <string name="instruction_description"> The puzzle was "invented" by Noyes Palmer Chapman, a postmaster in Canastota, New York, who is said to have shown friends,
+        as early as 1874,a precursor puzzle consisting of 16 numbered blocks that were to be put together in rows of four.
+        The 15 puzzle (also called Gem Puzzle, Boss Puzzle, Game of Fifteen, Mystic Square and many others) is a sliding puzzle having 15 square tiles numbered 1–15
+        in a frame that is 4 tiles high and 4 tiles wide, leaving one unoccupied tile position. Tiles in the same row or column of the open position can be moved
+        by sliding them horizontally or vertically, respectively. The goal of the puzzle is to place the tiles in numerical order.</string>
+    <string name="instruction_play_description">"To win the game you should alter the squares and located them to right position. When the numbers find their place their background color change to green and if all numbers find their place you will be winner on this game. \nNOTE: You should finish the game in the given time. "</string>
+    <string name="how_to_play_it">How to play it?</string>
+    <string name="good_luck">Good Luck !!!</string>
+    <string name="settings">Settings</string>
+    <string name="sound">Sound</string>
+    <string name="time">Time</string>
+    <string name="home">Home</string>
+    <string name="resume">RESUME</string>
+    <string name="player_name">Player Name</string>
+    <string name="ratings">Ratings</string>
+    <string name="instruction">Instruction</string>
+    <string name="play">Play</string>
+    <string name="soon">Soon...</string>
+    <string name="powered_by_bekdiyor">Powered by Jasurbek</string>
+    <string name="puzzle_15">Puzzle 15</string>
+    <string name="ertak_nomi">Ertak nomi ...</string>
+    <string name="jonivorlarning_sarguzashtlari">Jonivorlarning sarguzashtlari</string>
+    <string name="Boshlash">BOSHLASH</string>
+    <string name="OrqagaQaytish">Orqaga</string>
+    <string name="o_yin_tugadi">O\'yin tugadi</string>
+    <string name="bo_limlar_ro_yxati">Bo\'limlar ro\'yxati</string>
+    <string name="natijalar">Natijalar</string>
+    <string name="jami_savollar_soni">Jami savollar</string>
+    <string name="to_g_ri_javob">To\'g\'ri javob</string>
+    <string name="noto_g_ri_javob">Noto\'g\'ri javob</string>
+    <string name="todo">TODO</string>
+    <string name="play_button">Play</string>
+    <string name="title_sudoku">Sudoku Game</string>
 </resources>
