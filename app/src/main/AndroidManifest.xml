@@ -6,36 +6,66 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/logo"
+        android:icon="@drawable/logo1"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/logo"
+        android:roundIcon="@drawable/logo1"
         android:supportsRtl="true"
         android:theme="@style/Theme.AlifbeApp"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".NavMenu.Settings_nav"
+            android:exported="false" />
+        <activity
+            android:name=".NavMenu.Support"
+            android:exported="false" />
+        <activity
+            android:name=".NavMenu.FAQ"
+            android:exported="false" />
+        <activity
+            android:name=".NavMenu.AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".Puzzle.ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Puzzle.RatingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Puzzle.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Puzzle.InstructionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Puzzle.MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Puzzle.GameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard.MainActivity"
             android:exported="false" />
         <activity
             android:name=".Game.Oyinlar_Activity"
             android:exported="false" />
-       <activity
+        <activity
             android:name=".Game.GameOver"
             android:exported="false" />
         <activity
             android:name=".Game.StartGame_Activity"
             android:exported="false" />
         <activity
-            android:name=".Splash"
+            android:name=".Splash.Splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".HarfActivity"
-            android:exported="true">
-        </activity>
+            android:name=".Dashboard.HarfActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
