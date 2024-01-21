@@ -1,4 +1,4 @@
-package uz.jasurbekruzimov.alifbeapp;
+package uz.jasurbekruzimov.alifbeapp.Dashboard;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
@@ -12,28 +12,35 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
-import android.widget.Button;
 import android.widget.ImageView;
 
 import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.navigation.NavigationView;
 
 import uz.jasurbekruzimov.alifbeapp.Game.Oyinlar_Activity;
+import uz.jasurbekruzimov.alifbeapp.NavMenu.AboutUs;
+import uz.jasurbekruzimov.alifbeapp.NavMenu.FAQ;
+import uz.jasurbekruzimov.alifbeapp.NavMenu.Settings_nav;
+import uz.jasurbekruzimov.alifbeapp.NavMenu.Support;
+import uz.jasurbekruzimov.alifbeapp.Puzzle.MenuActivity;
+import uz.jasurbekruzimov.alifbeapp.R;
 
 public class MainActivity extends AppCompatActivity {
     private boolean isMenuOpen = false;
     @Override
-    @SuppressLint("MissingInflatedId")
+    @SuppressLint({"MissingInflatedId", "NonConstantResourceId"})
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         MaterialCardView alifbe = findViewById(R.id.alifbe);
         MaterialCardView color = findViewById(R.id.color);
-        MaterialCardView etc = findViewById(R.id.etc);
+        MaterialCardView puzzle = findViewById(R.id.puzzle);
+        MaterialCardView sudoku = findViewById(R.id.sudoku);
         startPulseAnimationCardView(alifbe);
         startPulseAnimationCardView(color);
-        startPulseAnimationCardView(etc);
+        startPulseAnimationCardView(puzzle);
+        startPulseAnimationCardView(sudoku);
 
 
 
@@ -53,15 +60,11 @@ public class MainActivity extends AppCompatActivity {
             isMenuOpen = !isMenuOpen;
         });
         NavigationView navigationView = findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(item -> {
-            item.setChecked(true);
+//        navigationView.setNavigationItemSelectedListener(item -> {
+//            item.setChecked(true);
 //            switch (item.getItemId()) {
-//                case R.id.nav_profile:
-//                    Intent intent = new Intent(MainActivity.this, Profile.class);
-//                    startActivity(intent);
-//                    break;
 //                case R.id.nav_settings:
-//                    Intent intent1 = new Intent(MainActivity.this, Settings_activity.class);
+//                    Intent intent1 = new Intent(MainActivity.this, Settings_nav.class);
 //                    startActivity(intent1);
 //                    break;
 //                case R.id.nav_share1:
@@ -74,20 +77,20 @@ public class MainActivity extends AppCompatActivity {
 //                    startActivity(Intent.createChooser(intent2, "Share Using"));
 //                    break;
 //                case R.id.nav_support:
-//                    Intent intent3 = new Intent(MainActivity.this, Support_Activity.class);
+//                    Intent intent3 = new Intent(MainActivity.this, Support.class);
 //                    startActivity(intent3);
 //                    break;
 //                case R.id.nav_FAQ:
-//                    Intent intent4 = new Intent(MainActivity.this, FAQ_activity.class);
+//                    Intent intent4 = new Intent(MainActivity.this, FAQ.class);
 //                    startActivity(intent4);
 //                    break;
 //                case R.id.nav_AboutUs:
-//                    Intent intent5 = new Intent(MainActivity.this, AboutUs_activity.class);
+//                    Intent intent5 = new Intent(MainActivity.this, AboutUs.class);
 //                    startActivity(intent5);
 //                    break;
 //            }
-            return false;
-        });
+//            return false;
+//        });
 
     }
 
@@ -103,6 +106,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void goColorGame(View view) {
         Intent i = new Intent(MainActivity.this, Oyinlar_Activity.class);
+        startActivity(i);
+    }
+    public void goPuzzle(View view) {
+        Intent i = new Intent(MainActivity.this, MenuActivity.class);
         startActivity(i);
     }
 
