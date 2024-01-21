@@ -1,4 +1,4 @@
-package uz.jasurbekruzimov.smartchild.Puzzle;
+package uz.jasurbekruzimov.alifbeapp.Puzzle;
 
 public class Values {
     public static Float gameDuration = 0f;
