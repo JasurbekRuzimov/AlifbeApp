@@ -1,10 +1,11 @@
-package uz.jasurbekruzimov.alifbeapp
+package uz.jasurbekruzimov.alifbeapp.Dashboard
 
 import android.annotation.SuppressLint
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import uz.jasurbekruzimov.alifbeapp.R
 
 @SuppressLint("StaticFieldLeak")
 
