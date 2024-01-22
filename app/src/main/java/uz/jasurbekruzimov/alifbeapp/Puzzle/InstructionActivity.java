@@ -1,11 +1,11 @@
-package uz.jasurbekruzimov.smartchild.Puzzle;
-
-import androidx.appcompat.app.AppCompatActivity;
+package uz.jasurbekruzimov.alifbeapp.Puzzle;
 
 import android.os.Bundle;
 import android.view.WindowManager;
 
-import uz.jasurbekruzimov.smartchild.R;
+import androidx.appcompat.app.AppCompatActivity;
+
+import uz.jasurbekruzimov.alifbeapp.R;
 
 public class InstructionActivity extends AppCompatActivity {
 
