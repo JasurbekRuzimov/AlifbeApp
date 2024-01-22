@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/back_pic"
-    tools:context=".MainActivity">
+    tools:context=".Dashboard.MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -119,13 +119,13 @@
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
-            android:id="@+id/etc"
+            android:id="@+id/puzzle"
             style="@style/Widget.MaterialComponents.CardView"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginStart="16dp"
             android:background="@color/white"
-            android:onClick="goColorGame"
+            android:onClick="goPuzzle"
             android:paddingBottom="10dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="5dp"
@@ -138,7 +138,7 @@
                 android:layout_height="55dp"
                 android:layout_gravity="center|top"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/m"
+                android:src="@drawable/puzzle_15"
                 tools:ignore="ContentDescription" />
 
             <TextView
@@ -147,7 +147,44 @@
                 android:layout_gravity="center|bottom"
                 android:layout_marginBottom="8dp"
                 android:fontFamily="@font/montserrat"
-                android:text="Etc"
+                android:text="15 Puzzle"
+                android:textColor="@color/primary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/sudoku"
+            style="@style/Widget.MaterialComponents.CardView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/white"
+            android:onClick="goPuzzle"
+            android:paddingBottom="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toStartOf="@+id/puzzle"
+            app:layout_constraintStart_toEndOf="@+id/alifbe"
+            app:layout_constraintTop_toBottomOf="@+id/alifbe"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/sudoku"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Sudoku"
                 android:textColor="@color/primary"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -160,6 +197,7 @@
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@color/white"
         android:layout_gravity="start"
         android:layout_marginStart="40dp"
         android:layout_marginTop="74dp"
