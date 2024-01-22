@@ -1,37 +1,27 @@
-package uz.jasurbekruzimov.smartchild.Puzzle;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
-import androidx.core.content.res.ResourcesCompat;
+package uz.jasurbekruzimov.alifbeapp.Puzzle;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.content.res.Resources;
-import android.graphics.Color;
-import android.graphics.ColorFilter;
-import android.graphics.PorterDuff;
-import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.graphics.drawable.LayerDrawable;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.os.CountDownTimer;
 import android.os.SystemClock;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Chronometer;
 import android.widget.GridLayout;
-import android.widget.ImageButton;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-import uz.jasurbekruzimov.smartchild.R;
+import uz.jasurbekruzimov.alifbeapp.R;
 
 public class GameActivity extends AppCompatActivity {
     private TextView playerNameText;
