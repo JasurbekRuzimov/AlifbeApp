@@ -1,16 +1,12 @@
-package uz.jasurbekruzimov.smartchild.Puzzle;
+package uz.jasurbekruzimov.alifbeapp.Puzzle;
 
+
+import android.os.Bundle;
+import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.ClipData;
-import android.graphics.Color;
-import android.graphics.drawable.GradientDrawable;
-import android.os.Bundle;
-import android.view.View;
-import android.view.WindowManager;
-
-import uz.jasurbekruzimov.smartchild.R;
+import uz.jasurbekruzimov.alifbeapp.R;
 
 public class RatingsActivity extends AppCompatActivity {
 
