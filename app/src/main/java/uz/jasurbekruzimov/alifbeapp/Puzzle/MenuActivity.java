@@ -1,7 +1,5 @@
-package uz.jasurbekruzimov.smartchild.Puzzle;
+package uz.jasurbekruzimov.alifbeapp.Puzzle;
 
-
-import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -9,11 +7,12 @@ import android.content.SharedPreferences;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import uz.jasurbekruzimov.smartchild.R;
+import androidx.appcompat.app.AppCompatActivity;
+
+import uz.jasurbekruzimov.alifbeapp.R;
 
 public class MenuActivity extends AppCompatActivity {
     private EditText playerName;
