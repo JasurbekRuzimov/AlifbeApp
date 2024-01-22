@@ -70,8 +70,6 @@
                 android:text="@string/sound"
                 android:textSize="16sp"
                 android:textStyle="bold|italic"
-                app:thumbTint="@drawable/switch_thumb_selectr"
-                app:trackTint="@drawable/switch_track_selectr"
                 tools:ignore="UseSwitchCompatOrMaterialXml" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
