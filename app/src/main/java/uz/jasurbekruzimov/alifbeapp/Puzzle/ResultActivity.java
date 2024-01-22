@@ -1,17 +1,16 @@
-package uz.jasurbekruzimov.smartchild.Puzzle;
-
-import androidx.appcompat.app.AppCompatActivity;
+package uz.jasurbekruzimov.alifbeapp.Puzzle;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.media.Image;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import uz.jasurbekruzimov.smartchild.R;
+import androidx.appcompat.app.AppCompatActivity;
+
+import uz.jasurbekruzimov.alifbeapp.R;
 
 public class ResultActivity extends AppCompatActivity {
     private ImageView resultImage;
