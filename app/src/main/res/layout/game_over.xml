@@ -34,9 +34,7 @@
     <!-- Create a filler View -->
     <View
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_weight="1" />
-    <!-- Create a LinearLayout for showing points and personal best. -->
+        android:layout_height="200dp"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -54,8 +52,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Jami ball: "
+                android:fontFamily="@font/montserrat"
                 android:textColor="#0b80a7"
-                android:textSize="27sp" />
+                android:textSize="22sp" />
 
             <TextView
                 android:id="@+id/tvPoints"
@@ -63,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textColor="@android:color/holo_green_light"
-                android:textSize="60sp" />
+                android:textSize="40sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -77,8 +76,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Eng yaxshi natijangiz: "
+                android:fontFamily="@font/montserrat"
                 android:textColor="#0b80a7"
-                android:textSize="27sp" />
+                android:textSize="22sp" />
 
             <TextView
                 android:id="@+id/tvPersonalBest"
@@ -97,8 +97,9 @@
         android:layout_marginTop="15dp"
         android:text="o'yin tugadi"
         android:textAllCaps="true"
+        android:fontFamily="@font/montserrat"
         android:textColor="@color/primary"
-        android:textSize="45dp"
+        android:textSize="35dp"
         android:textStyle="bold"
         tools:ignore="SpUsage" />
     <!-- Create another filler View to show the main content that is the points, personal best
