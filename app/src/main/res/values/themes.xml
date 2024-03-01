@@ -1,9 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.AlifbeApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
+    <style name="Base.Theme.AlifbeApp" parent="Theme.Material3.Light.NoActionBar">
         <item name="colorPrimary">@color/primary</item>
-        <!-- Customize your theme here. -->
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
     </style>
 
     <style name="Theme.AlifbeApp" parent="Base.Theme.AlifbeApp" />
