@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/back_pic"
-    tools:context=".Dashboard.MainActivity">
+    tools:context=".Dashboard.MainActivity"
+    tools:ignore="MissingClass">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
