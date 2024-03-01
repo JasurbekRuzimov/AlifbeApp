@@ -22,7 +22,6 @@ public class Oyinlar_Activity extends AppCompatActivity {
 
         backHome.setOnClickListener(v -> finish());
 
-
     }
 
     public void StartGame(View view) {
