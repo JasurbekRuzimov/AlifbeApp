@@ -146,42 +146,7 @@ class HarfActivity : AppCompatActivity() {
         val mp = MediaPlayer.create(this, R.raw.z)
         mp.start()
     }
-    // CallCH
-//    fun CallCH(view: View) {
-//        val mp = MediaPlayer.create(this, R.raw.ch)
-//        mp.start()
-//    }
 
-    // CallGʻ
-
-//    fun CallGʻ(view: View) {
-//        val mp = MediaPlayer.create(this, R.raw.g)
-//        mp.start()
-//    }
-
-    // CallOʻ
-
-    fun CallOʻ(view: View) {
-//        val mp = MediaPlayer.create(this, R.raw.o)
-//        mp.start()
-    }
-
-    // CallSH
-
-    fun CallSH(view: View) {
-//        val mp = MediaPlayer.create(this, R.raw.sh)
-//        mp.start()
-    }
-
-    // CallYO
-
-    //    fun CallYO(view: View) {
-//        val mp = MediaPlayer.create(this, R.raw.yo)
-//        mp.start()
-//    }
-    fun CallTutuqBelgi(view: View) {
-
-    }
 
     fun backHome(view: View) {
         finish()
