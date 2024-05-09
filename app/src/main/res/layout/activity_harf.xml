@@ -44,9 +44,9 @@
             android:layout_marginStart="18dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
+            android:onClick="backHome"
             android:src="@drawable/back__24"
             android:tint="@color/white"
-            android:onClick="backHome"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -123,27 +123,6 @@
 
                 </androidx.cardview.widget.CardView>
 
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:cardCornerRadius="10dp"
-                    app:cardElevation="5dp"
-                    android:onClick="CallC"
-                    app:cardUseCompatPadding="true">
-
-                    <ImageView
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:layout_gravity="center"
-                        android:layout_margin="5dp"
-                        android:padding="8dp"
-                        android:src="@drawable/c"
-                        tools:ignore="ContentDescription" />
-
-
-                </androidx.cardview.widget.CardView>
-
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -164,19 +143,6 @@
 
                 </androidx.cardview.widget.CardView>
 
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="12dp"
-                android:gravity="center"
-                android:orientation="horizontal">
-
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -196,6 +162,19 @@
 
 
                 </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="12dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
@@ -257,20 +236,6 @@
 
                 </androidx.cardview.widget.CardView>
 
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="12dp"
-                android:gravity="center"
-                android:orientation="horizontal">
-
-
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -290,6 +255,18 @@
 
 
                 </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="12dp"
+                android:gravity="center"
+                android:orientation="horizontal">
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
@@ -351,6 +328,25 @@
 
                 </androidx.cardview.widget.CardView>
 
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="CallM"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:padding="8dp"
+                        android:src="@drawable/m"
+                        tools:ignore="ContentDescription" />
+
+
+                </androidx.cardview.widget.CardView>
 
             </LinearLayout>
 
@@ -367,7 +363,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="CallM"
+                    android:onClick="CallQ"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="5dp"
                     app:cardUseCompatPadding="true">
@@ -378,7 +374,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
                         android:padding="8dp"
-                        android:src="@drawable/m"
+                        android:src="@drawable/q"
                         tools:ignore="ContentDescription" />
 
 
@@ -460,26 +456,6 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="CallQ"
-                    app:cardCornerRadius="10dp"
-                    app:cardElevation="5dp"
-                    app:cardUseCompatPadding="true">
-
-                    <ImageView
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:layout_gravity="center"
-                        android:layout_margin="5dp"
-                        android:padding="8dp"
-                        android:src="@drawable/q"
-                        tools:ignore="ContentDescription" />
-
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:onClick="CallR"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="5dp"
@@ -537,20 +513,6 @@
 
                 </androidx.cardview.widget.CardView>
 
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="12dp"
-                android:gravity="center"
-                android:orientation="horizontal">
-
-
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -571,6 +533,18 @@
 
                 </androidx.cardview.widget.CardView>
 
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="12dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -586,26 +560,6 @@
                         android:layout_margin="5dp"
                         android:padding="8dp"
                         android:src="@drawable/v"
-                        tools:ignore="ContentDescription" />
-
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="81dp"
-                    android:layout_height="match_parent"
-                    android:onClick="CallW"
-                    app:cardCornerRadius="10dp"
-                    app:cardElevation="5dp"
-                    app:cardUseCompatPadding="true">
-
-                    <ImageView
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:layout_gravity="center"
-                        android:layout_margin="5dp"
-                        android:padding="8dp"
-                        android:src="@drawable/w"
                         tools:ignore="ContentDescription" />
 
 
@@ -630,21 +584,6 @@
 
 
                 </androidx.cardview.widget.CardView>
-
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="12dp"
-                android:gravity="center"
-                android:orientation="horizontal">
-
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
@@ -682,6 +621,150 @@
                         android:padding="8dp"
                         android:src="@drawable/z"
                         tools:ignore="ContentDescription" />
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="12dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="CallV"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:padding="8dp"
+                        android:src="@drawable/o2"
+                        tools:ignore="ContentDescription" />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="CallX"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:padding="8dp"
+                        android:src="@drawable/g2"
+                        tools:ignore="ContentDescription" />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="CallY"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:padding="8dp"
+                        android:src="@drawable/sh"
+                        tools:ignore="ContentDescription" />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="CallZ"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:padding="8dp"
+                        android:src="@drawable/ch"
+                        tools:ignore="ContentDescription" />
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="12dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="CallV"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:padding="8dp"
+                        android:src="@drawable/ng"
+                        tools:ignore="ContentDescription" />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="CallX"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:padding="8dp"
+                        android:src="@drawable/tutuqbelgisi"
+                        tools:ignore="ContentDescription" />
+
 
                 </androidx.cardview.widget.CardView>
 
