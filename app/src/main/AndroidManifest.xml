@@ -13,6 +13,15 @@
         android:theme="@style/Theme.AlifbeApp"
         tools:targetApi="31">
         <activity
+            android:name=".Alifbe.Alifbe_Ru"
+            android:exported="false" />
+        <activity
+            android:name=".Alifbe.Choose_Lang"
+            android:exported="false" />
+        <activity
+            android:name=".Alifbe.Alifbe_En"
+            android:exported="false" />
+        <activity
             android:name=".NavMenu.Settings_nav"
             android:exported="false" />
         <activity
@@ -64,7 +73,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Dashboard.HarfActivity"
+            android:name=".Alifbe.Alifbe_Uz"
             android:exported="true" />
     </application>
 
