@@ -17,11 +17,8 @@ import android.widget.ImageView;
 import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.navigation.NavigationView;
 
+import uz.jasurbekruzimov.alifbeapp.Alifbe.Choose_Lang;
 import uz.jasurbekruzimov.alifbeapp.Game.Oyinlar_Activity;
-import uz.jasurbekruzimov.alifbeapp.NavMenu.AboutUs;
-import uz.jasurbekruzimov.alifbeapp.NavMenu.FAQ;
-import uz.jasurbekruzimov.alifbeapp.NavMenu.Settings_nav;
-import uz.jasurbekruzimov.alifbeapp.NavMenu.Support;
 import uz.jasurbekruzimov.alifbeapp.Puzzle.MenuActivity;
 import uz.jasurbekruzimov.alifbeapp.R;
 
@@ -114,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goHarfActivity(View view) {
-        Intent i = new Intent(MainActivity.this, HarfActivity.class);
+        Intent i = new Intent(MainActivity.this, Choose_Lang.class);
         startActivity(i);
     }
 
