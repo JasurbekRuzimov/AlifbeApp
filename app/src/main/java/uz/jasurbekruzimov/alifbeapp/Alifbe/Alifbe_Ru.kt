@@ -1,4 +1,4 @@
-package uz.jasurbekruzimov.alifbeapp.Dashboard
+package uz.jasurbekruzimov.alifbeapp.Alifbe
 
 import android.annotation.SuppressLint
 import android.media.MediaPlayer
@@ -9,11 +9,11 @@ import uz.jasurbekruzimov.alifbeapp.R
 
 @SuppressLint("StaticFieldLeak")
 
-class HarfActivity : AppCompatActivity() {
+class Alifbe_Ru : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_harf)
+        setContentView(R.layout.activity_alifbe_ru)
 
     }
 
