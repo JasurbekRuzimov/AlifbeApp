@@ -1,9 +1,5 @@
 package uz.jasurbekruzimov.alifbeapp.Dashboard;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.view.GravityCompat;
-import androidx.drawerlayout.widget.DrawerLayout;
-
 import android.animation.ObjectAnimator;
 import android.animation.PropertyValuesHolder;
 import android.annotation.SuppressLint;
@@ -14,11 +10,16 @@ import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+
 import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.navigation.NavigationView;
 
 import uz.jasurbekruzimov.alifbeapp.Alifbe.Choose_Lang;
 import uz.jasurbekruzimov.alifbeapp.Game.Oyinlar_Activity;
+import uz.jasurbekruzimov.alifbeapp.MindGame.MindGameActivity;
 import uz.jasurbekruzimov.alifbeapp.Puzzle.MenuActivity;
 import uz.jasurbekruzimov.alifbeapp.R;
 
@@ -31,11 +32,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         MaterialCardView alifbe = findViewById(R.id.alifbe);
-        MaterialCardView color = findViewById(R.id.color);
+        MaterialCardView cardMindGame = findViewById(R.id.cardMindGame);
         MaterialCardView puzzle = findViewById(R.id.puzzle);
         MaterialCardView sudoku = findViewById(R.id.sudoku);
         startPulseAnimationCardView(alifbe);
-        startPulseAnimationCardView(color);
+        startPulseAnimationCardView(cardMindGame);
         startPulseAnimationCardView(puzzle);
         startPulseAnimationCardView(sudoku);
 
@@ -101,8 +102,8 @@ public class MainActivity extends AppCompatActivity {
         pulseAnimator.start();
     }
 
-    public void goColorGame(View view) {
-        Intent i = new Intent(MainActivity.this, Oyinlar_Activity.class);
+    public void MindGame(View view) {
+        Intent i = new Intent(MainActivity.this, MindGameActivity.class);
         startActivity(i);
     }
     public void goPuzzle(View view) {
