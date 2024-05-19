@@ -23,128 +23,127 @@ class Alifbe_Uz : AppCompatActivity() {
     }
 
     fun CallB(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.b_u)
+        val mp = MediaPlayer.create(this, R.raw.b)
+        mp.start()
+    }
+
+    fun CallC(view: View) {
+        val mp = MediaPlayer.create(this, R.raw.c)
         mp.start()
     }
 
     fun CallD(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.d_u)
+        val mp = MediaPlayer.create(this, R.raw.d)
         mp.start()
     }
 
     fun CallE(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.e_u)
+        val mp = MediaPlayer.create(this, R.raw.e)
         mp.start()
     }
 
     fun CallF(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.f_u)
+        val mp = MediaPlayer.create(this, R.raw.f)
         mp.start()
     }
 
     fun CallG(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.g_u)
+        val mp = MediaPlayer.create(this, R.raw.g)
         mp.start()
     }
 
     fun CallH(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.h_u)
+        val mp = MediaPlayer.create(this, R.raw.h)
         mp.start()
     }
 
     fun CallI(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.i_u)
+        val mp = MediaPlayer.create(this, R.raw.i)
         mp.start()
     }
 
     fun CallJ(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.j_u)
+        val mp = MediaPlayer.create(this, R.raw.j)
         mp.start()
     }
+
     fun CallK(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.k_u)
+        val mp = MediaPlayer.create(this, R.raw.k)
         mp.start()
     }
+
     fun CallL(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.l_u)
+        val mp = MediaPlayer.create(this, R.raw.l)
         mp.start()
     }
+
     fun CallM(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.m_u)
+        val mp = MediaPlayer.create(this, R.raw.m)
         mp.start()
     }
+
     fun CallN(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.n_u)
+        val mp = MediaPlayer.create(this, R.raw.n)
         mp.start()
     }
+
     fun CallO(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.o_u)
+        val mp = MediaPlayer.create(this, R.raw.o)
         mp.start()
     }
+
     fun CallP(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.p_u)
+        val mp = MediaPlayer.create(this, R.raw.p)
         mp.start()
     }
+
     fun CallQ(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.q_u)
+        val mp = MediaPlayer.create(this, R.raw.q)
         mp.start()
     }
+
     fun CallR(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.r_u)
+        val mp = MediaPlayer.create(this, R.raw.r)
         mp.start()
     }
+
     fun CallS(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.s_u)
+        val mp = MediaPlayer.create(this, R.raw.s)
         mp.start()
     }
+
     fun CallT(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.t_u)
+        val mp = MediaPlayer.create(this, R.raw.t)
         mp.start()
     }
+
     fun CallU(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.u_u)
+        val mp = MediaPlayer.create(this, R.raw.u)
         mp.start()
     }
+
     fun CallV(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.v_u)
+        val mp = MediaPlayer.create(this, R.raw.v)
         mp.start()
     }
+
+    fun CallW(view: View) {
+        val mp = MediaPlayer.create(this, R.raw.w)
+        mp.start()
+    }
+
     fun CallX(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.x_u)
+        val mp = MediaPlayer.create(this, R.raw.x)
         mp.start()
     }
+
     fun CallY(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.y_u)
+        val mp = MediaPlayer.create(this, R.raw.y)
         mp.start()
     }
+
     fun CallZ(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.z_u)
-        mp.start()
-    }
-
-    fun CallO2(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.o2_u)
-        mp.start()
-    }
-    fun CallG2(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.g_u)
-        mp.start()
-    }
-
-    fun CallSh(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.sh_u)
-        mp.start()
-    }
-    fun CallCh(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.ch_u)
-        mp.start()
-    }
-    fun CallNG(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.ng_u)
-        mp.start()
-    }
-    fun CallTB(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.tb_u)
+        val mp = MediaPlayer.create(this, R.raw.z)
         mp.start()
     }
 
