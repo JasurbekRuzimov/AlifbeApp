@@ -1,28 +1,28 @@
 package uz.jasurbekruzimov.alifbeapp.MindGame;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
-
+import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 import java.util.List;
 
+import uz.jasurbekruzimov.alifbeapp.MindGame.PracticeActivity;
 import uz.jasurbekruzimov.alifbeapp.R;
 
 public class LessonActivity extends AppCompatActivity {
 
     private TextView numberText;
+    private ImageButton playAudioButton;
     private Button nextButton;
-    private int lessonNumber;
     private List<Integer> numbers;
     private int currentIndex = 0;
     private MediaPlayer mediaPlayer;
+    private int lessonNumber;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,30 +30,27 @@ public class LessonActivity extends AppCompatActivity {
         setContentView(R.layout.activity_lesson);
 
         numberText = findViewById(R.id.number_text);
+        playAudioButton = findViewById(R.id.play_audio_button);
         nextButton = findViewById(R.id.next_button);
 
-        lessonNumber = getIntent().getIntExtra("LESSON_NUMBER", -1);
-        if (lessonNumber == -1) {
-            Log.e("LessonActivity", "Invalid lesson number");
-            finish(); // Exit the activity if lesson number is invalid
-            return;
-        }
+        lessonNumber = getIntent().getIntExtra("LESSON_NUMBER", 1);
         numbers = getNumbersForLesson(lessonNumber);
 
-        if (numbers == null || numbers.isEmpty()) {
-            Log.e("LessonActivity", "No numbers for lesson: " + lessonNumber);
-            finish(); // Exit the activity if there are no numbers
-            return;
-        }
+        showNumberAndSetupAudio(currentIndex);
 
-        updateUI();
+        playAudioButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playAudioForNumber(numbers.get(currentIndex));
+            }
+        });
 
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (currentIndex < numbers.size() - 1) {
-                    currentIndex++;
-                    updateUI();
+                currentIndex++;
+                if (currentIndex < numbers.size()) {
+                    showNumberAndSetupAudio(currentIndex);
                 } else {
                     nextButton.setText("Practice");
                     nextButton.setOnClickListener(new View.OnClickListener() {
@@ -65,8 +62,6 @@ public class LessonActivity extends AppCompatActivity {
                 }
             }
         });
-
-
     }
 
     private List<Integer> getNumbersForLesson(int lessonNumber) {
@@ -85,26 +80,38 @@ public class LessonActivity extends AppCompatActivity {
         return numbers;
     }
 
-    private void updateUI() {
-        int number = numbers.get(currentIndex);
+    private void showNumberAndSetupAudio(int index) {
+        int number = numbers.get(index);
         numberText.setText(String.valueOf(number));
-        playAudioForNumber(number);
+        setupAudioForNumber(number);
+    }
+
+    private void setupAudioForNumber(int number) {
+        if (mediaPlayer != null) {
+            mediaPlayer.release();
+        }
+        int audioResId = getResources().getIdentifier("number_" + number, "raw", getPackageName());
+        mediaPlayer = MediaPlayer.create(this, audioResId);
     }
 
     private void playAudioForNumber(int number) {
         if (mediaPlayer != null) {
-            mediaPlayer.release();
+            mediaPlayer.start();
         }
-        @SuppressLint("DiscouragedApi") int audioResId = getResources().getIdentifier("number_" + number, "raw", getPackageName());
-        if (audioResId == 0) {
-            Log.e("LessonActivity", "Audio resource not found for number: " + number);
-            return;
-        }
-        mediaPlayer = MediaPlayer.create(this, audioResId);
-        mediaPlayer.start();
     }
 
     private void startPracticeActivity() {
-        // TODO: Implement practice activity logic
+        Intent intent = new Intent(LessonActivity.this, PracticeActivity.class);
+        intent.putExtra("LESSON_NUMBER", lessonNumber);
+        startActivity(intent);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (mediaPlayer != null) {
+            mediaPlayer.release();
+            mediaPlayer = null;
+        }
     }
 }
