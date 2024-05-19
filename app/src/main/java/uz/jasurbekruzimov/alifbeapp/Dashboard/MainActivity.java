@@ -34,11 +34,9 @@ public class MainActivity extends AppCompatActivity {
         MaterialCardView alifbe = findViewById(R.id.alifbe);
         MaterialCardView cardMindGame = findViewById(R.id.cardMindGame);
         MaterialCardView puzzle = findViewById(R.id.puzzle);
-        MaterialCardView sudoku = findViewById(R.id.sudoku);
         startPulseAnimationCardView(alifbe);
         startPulseAnimationCardView(cardMindGame);
         startPulseAnimationCardView(puzzle);
-        startPulseAnimationCardView(sudoku);
 
 
 

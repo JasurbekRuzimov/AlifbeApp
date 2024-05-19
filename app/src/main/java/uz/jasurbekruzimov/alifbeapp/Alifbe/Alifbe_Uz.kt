@@ -18,7 +18,7 @@ class Alifbe_Uz : AppCompatActivity() {
     }
 
     fun CallA(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.a)
+        val mp = MediaPlayer.create(this, R.raw.a_u)
         mp.start()
     }
 
