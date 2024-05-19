@@ -641,7 +641,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="CallV"
+                    android:onClick="CallO2"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="5dp"
                     app:cardUseCompatPadding="true">
@@ -661,7 +661,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="CallX"
+                    android:onClick="CallG2"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="5dp"
                     app:cardUseCompatPadding="true">
@@ -681,7 +681,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="CallY"
+                    android:onClick="CallSh"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="5dp"
                     app:cardUseCompatPadding="true">
@@ -701,7 +701,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="CallZ"
+                    android:onClick="CallCh"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="5dp"
                     app:cardUseCompatPadding="true">
@@ -732,7 +732,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="CallV"
+                    android:onClick="CallNG"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="5dp"
                     app:cardUseCompatPadding="true">
@@ -752,7 +752,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="CallX"
+                    android:onClick="CallTB"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="5dp"
                     app:cardUseCompatPadding="true">
