@@ -8,12 +8,10 @@ import android.widget.Button;
 import android.widget.GridLayout;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.airbnb.lottie.LottieAnimationView;
-import com.airbnb.lottie.LottieDrawable;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -33,6 +31,7 @@ public class PracticeActivity extends AppCompatActivity {
     private List<Integer> audioNumbers;
     private int selectedNumber = -1;
     private MediaPlayer mediaPlayer;
+    private MediaPlayer celebrationMediaPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,7 +63,7 @@ public class PracticeActivity extends AppCompatActivity {
         backLessonsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(PracticeActivity.this, LessonActivity.class); // Navigate back to LessonActivity
+                Intent intent = new Intent(PracticeActivity.this, MindGameActivity.class); // Navigate back to LessonActivity
                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK); // Ensure the previous activities are cleared
                 startActivity(intent);
                 finish();
@@ -173,7 +172,16 @@ public class PracticeActivity extends AppCompatActivity {
     private void showCelebration() {
         celebrationAnimation.setVisibility(View.VISIBLE); // Make animation visible
         celebrationAnimation.playAnimation();
+        playCelebrationSound();
         buttonsLayout.setVisibility(View.VISIBLE); // Make buttons visible
+    }
+
+    private void playCelebrationSound() {
+        if (celebrationMediaPlayer != null) {
+            celebrationMediaPlayer.release();
+        }
+        celebrationMediaPlayer = MediaPlayer.create(this, R.raw.celebration_sound);
+        celebrationMediaPlayer.start();
     }
 
     private void resetPractice() {

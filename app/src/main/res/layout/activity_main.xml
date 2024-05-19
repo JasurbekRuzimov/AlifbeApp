@@ -103,7 +103,7 @@
                 android:layout_height="55dp"
                 android:layout_gravity="center|top"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/colour"
+                android:src="@drawable/memorize_numbers"
                 tools:ignore="ContentDescription" />
 
             <TextView
@@ -112,7 +112,7 @@
                 android:layout_gravity="center|bottom"
                 android:layout_marginBottom="8dp"
                 android:fontFamily="@font/montserrat"
-                android:text="Ranglar"
+                android:text="Xotira"
                 android:textColor="@color/primary"
                 android:textSize="18sp"
                 android:textStyle="bold" />

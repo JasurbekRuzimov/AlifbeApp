@@ -34,7 +34,7 @@
         android:visibility="gone"
         app:lottie_autoPlay="false"
         app:lottie_loop="false"
-        app:lottie_rawRes="@raw/congratulation_animation" />
+        app:lottie_rawRes="@raw/congratulation" />
 
     <LinearLayout
         android:id="@+id/buttons_layout"
@@ -43,19 +43,24 @@
         android:layout_below="@id/audio_grid"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:visibility="gone">
 
         <Button
             android:id="@+id/again_button"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Again Practice" />
+            android:layout_gravity="center"
+            android:layout_margin="4dp"
+            android:layout_width="wrap_content"
+            android:text="Takrorlash"
+            app:icon="@drawable/ic_repeat_24" />
 
         <Button
             android:id="@+id/back_lessons_button"
             android:layout_width="wrap_content"
+            android:layout_margin="4dp"
             android:layout_height="wrap_content"
-            android:text="Back Lessons" />
+            android:text="Darslarga qaytish"
+            app:icon="@drawable/home_icon" />
     </LinearLayout>
 </RelativeLayout>

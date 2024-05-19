@@ -1,6 +1,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:padding="16dp">
 
     <ImageButton
@@ -16,12 +17,17 @@
 
     <Button
         android:id="@+id/next_button"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_margin="16dp"
-        android:text="Next" />
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Keyingi"
+        app:icon="@drawable/ic_next"
+        app:iconGravity="end" />
 
     <TextView
         android:id="@+id/number_text"

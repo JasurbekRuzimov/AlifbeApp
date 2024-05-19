@@ -9,18 +9,18 @@
         android:id="@+id/lesson1_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Lesson 1: Memorize 1-9" />
+        android:text="Dars 1: (1-9)" />
 
     <Button
         android:id="@+id/lesson2_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Lesson 2: Memorize 10-19" />
+        android:text="Dars 2: (10-19)" />
 
     <Button
         android:id="@+id/lesson3_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Lesson 3: Memorize 20-29" />
+        android:text="Dars 3: (20-29)" />
 
 </LinearLayout>
