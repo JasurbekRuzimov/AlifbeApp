@@ -24,6 +24,7 @@ import uz.jasurbekruzimov.alifbeapp.R;
 
 public class MainActivity extends AppCompatActivity {
     private boolean isMenuOpen = false;
+
     @Override
     @SuppressLint({"MissingInflatedId", "NonConstantResourceId"})
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,9 +39,8 @@ public class MainActivity extends AppCompatActivity {
         startPulseAnimationCardView(puzzle);
 
 
-
         DrawerLayout drawerLayout = findViewById(R.id.drawer_layout);
-    ImageView navMenu = findViewById(R.id.nav_menu_icon);
+        ImageView navMenu = findViewById(R.id.nav_menu_icon);
         navMenu.setOnClickListener(v -> {
             Animation animation;
             if (isMenuOpen) {
@@ -103,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this, Oyinlar_Activity.class);
         startActivity(i);
     }
+
     public void goPuzzle(View view) {
         Intent i = new Intent(MainActivity.this, MenuActivity.class);
         startActivity(i);
