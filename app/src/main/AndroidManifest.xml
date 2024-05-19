@@ -13,6 +13,12 @@
         android:theme="@style/Theme.AlifbeApp"
         tools:targetApi="31">
         <activity
+            android:name=".Alphabet.Alphabet"
+            android:exported="false" />
+        <activity
+            android:name=".Alphabet.Languages"
+            android:exported="false" />
+        <activity
             android:name=".MindGame.ResultActivity"
             android:exported="false" />
         <activity

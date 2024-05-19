@@ -17,132 +17,132 @@ class Alifbe_En : AppCompatActivity() {
     }
 
     fun CallA(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.a)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_a)
         mp.start()
     }
 
     fun CallB(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.b)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_b)
         mp.start()
     }
 
     fun CallC(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.c)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_c)
         mp.start()
     }
 
     fun CallD(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.d)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_d)
         mp.start()
     }
 
     fun CallE(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.e)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_e)
         mp.start()
     }
 
     fun CallF(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.f)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_f)
         mp.start()
     }
 
     fun CallG(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.g)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_g)
         mp.start()
     }
 
     fun CallH(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.h)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_h)
         mp.start()
     }
 
     fun CallI(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.i)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_i)
         mp.start()
     }
 
     fun CallJ(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.j)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_j)
         mp.start()
     }
 
     fun CallK(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.k)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_k)
         mp.start()
     }
 
     fun CallL(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.l)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_l)
         mp.start()
     }
 
     fun CallM(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.m)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_m)
         mp.start()
     }
 
     fun CallN(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.n)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_n)
         mp.start()
     }
 
     fun CallO(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.o)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_o)
         mp.start()
     }
 
     fun CallP(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.p)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_p)
         mp.start()
     }
 
     fun CallQ(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.q)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_q)
         mp.start()
     }
 
     fun CallR(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.r)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_r)
         mp.start()
     }
 
     fun CallS(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.s)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_s)
         mp.start()
     }
 
     fun CallT(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.t)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_t)
         mp.start()
     }
 
     fun CallU(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.u)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_u)
         mp.start()
     }
 
     fun CallV(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.v)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_v)
         mp.start()
     }
 
     fun CallW(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.w)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_w)
         mp.start()
     }
 
     fun CallX(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.x)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_x)
         mp.start()
     }
 
     fun CallY(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.y)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_y)
         mp.start()
     }
 
     fun CallZ(view: View) {
-        val mp = MediaPlayer.create(this, R.raw.z)
+        val mp = MediaPlayer.create(this, R.raw.english_letter_z)
         mp.start()
     }
 
