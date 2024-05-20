@@ -17,6 +17,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.navigation.NavigationView;
 
+import uz.jasurbekruzimov.alifbeapp.Alifbe.Choose_Lang;
 import uz.jasurbekruzimov.alifbeapp.Alphabet.Languages;
 import uz.jasurbekruzimov.alifbeapp.MindGame.MindGameActivity;
 import uz.jasurbekruzimov.alifbeapp.Puzzle.MenuActivity;
@@ -110,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goHarfActivity(View view) {
-        Intent i = new Intent(MainActivity.this, Languages.class);
+        Intent i = new Intent(MainActivity.this, Choose_Lang.class);
         startActivity(i);
     }
 
