@@ -77,7 +77,8 @@
                 android:fontFamily="@font/montserrat"
                 android:text="Alifbo"
                 android:textColor="@color/primary"
-                android:textSize="18sp"
+                android:textSize="15sp"
+                android:padding="3dp"
                 android:textStyle="bold" />
 
         </com.google.android.material.card.MaterialCardView>
@@ -103,7 +104,7 @@
                 android:layout_height="55dp"
                 android:layout_gravity="center|top"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/memorize_numbers"
+                android:src="@drawable/brainstorming"
                 tools:ignore="ContentDescription" />
 
             <TextView
@@ -114,7 +115,8 @@
                 android:fontFamily="@font/montserrat"
                 android:text="Xotira"
                 android:textColor="@color/primary"
-                android:textSize="18sp"
+                android:textSize="15sp"
+                android:padding="3dp"
                 android:textStyle="bold" />
 
         </com.google.android.material.card.MaterialCardView>
@@ -150,7 +152,47 @@
                 android:fontFamily="@font/montserrat"
                 android:text="Puzzle"
                 android:textColor="@color/primary"
-                android:textSize="18sp"
+                android:textSize="15sp"
+                android:padding="3dp"
+                android:textStyle="bold" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/videoDars"
+            style="@style/Widget.MaterialComponents.CardView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="32dp"
+            android:background="@color/white"
+            android:onClick="GoVideoDars"
+            android:paddingBottom="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            app:layout_constraintEnd_toEndOf="@+id/cardMindGame"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="@+id/cardMindGame"
+            app:layout_constraintTop_toBottomOf="@+id/alifbe"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/online_education"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Video Dars"
+                android:textColor="@color/primary"
+                android:textSize="15sp"
+                android:padding="3dp"
                 android:textStyle="bold" />
 
         </com.google.android.material.card.MaterialCardView>

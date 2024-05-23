@@ -35,9 +35,12 @@ public class MainActivity extends AppCompatActivity {
         MaterialCardView alifbe = findViewById(R.id.alifbe);
         MaterialCardView cardMindGame = findViewById(R.id.cardMindGame);
         MaterialCardView puzzle = findViewById(R.id.puzzle);
+        MaterialCardView videoDars = findViewById(R.id.videoDars);
+
         startPulseAnimationCardView(alifbe);
         startPulseAnimationCardView(cardMindGame);
         startPulseAnimationCardView(puzzle);
+        startPulseAnimationCardView(videoDars);
 
 
         DrawerLayout drawerLayout = findViewById(R.id.drawer_layout);
@@ -115,4 +118,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void GoVideoDars(View view) {
+        Intent i = new Intent(MainActivity.this, VideoDars.class);
+        startActivity(i);
+    }
 }
