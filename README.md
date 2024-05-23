@@ -12,7 +12,7 @@ Genius Child - `Splash Screen` 🔥
  Genius Child - `Dashboard` 🔥
 
 <div style="width=100%; flex-direction: row; display: flex; justify-content: space-around; align-items: center;">
-<img src="https://github.com/JasurbekRuzimov/AlifbeApp/assets/82991168/13506048-f0e3-45f6-a20a-0405a77d1e23" width="150" height="300" /> 
+<img src="https://github.com/JasurbekRuzimov/AlifbeApp/assets/82991168/51076833-a6cf-46e9-9dab-7651a4659945" width="150" height="300" /> 
 </div>
 
 Genius Child - `Alphabet` , `Uzbek` , `English` , `Russian`
@@ -27,4 +27,10 @@ Genius Child - `Mind Game`
 
 <div style="width=100%; flex-direction: row; display: flex; justify-content: space-around; align-items: center;">
 <img src="https://github.com/JasurbekRuzimov/AlifbeApp/assets/82991168/97d79942-95ab-4950-8f30-e9e23d5ef82d" width="150" height="300" /> 
+</div>
+
+Genius Child - `Video Darslar`
+
+<div style="width=100%; flex-direction: row; display: flex; justify-content: space-around; align-items: center;">
+<img src="https://github.com/JasurbekRuzimov/AlifbeApp/assets/82991168/956be00c-ebe5-4418-ba5a-1a6ec2abf5df" width="150" height="300" /> 
 </div>
