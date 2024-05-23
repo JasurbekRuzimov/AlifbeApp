@@ -14,7 +14,6 @@ class Alifbe_Uz : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_alifbe_uz)
-
     }
 
     fun CallA(view: View) {
